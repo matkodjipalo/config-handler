@@ -7,9 +7,6 @@ use Trikoder\Model\Dummy;
 
 require_once __DIR__.'/config/bootstrap.php';
 
-echo 'START';
-
-$dummyRepo = new DummyRepository();
-$dummy = new Dummy();
-$dummyRepoTest = new DummyRepository();
-$dummyTest = new DummyTest();
+$x = array(10,2,4);
+$y = array(1 => 2, 0 => 10, 2 => 4);
+d($x == $y);
