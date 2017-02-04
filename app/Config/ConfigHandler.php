@@ -31,7 +31,7 @@ class ConfigHandler
         $configArray = $this->loadFile($configFilePath);
 
         // puklo je učitavanje filea, vraća se defaultni config
-        if (null === $configArray) {
+        if (false === $configArray) {
             return $config;
         }
 

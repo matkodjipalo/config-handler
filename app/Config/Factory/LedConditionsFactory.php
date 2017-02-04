@@ -77,7 +77,7 @@ class LedConditionsFactory
      * @param  array $conditions
      * @return LedSolarVoltageConditions
      */
-    public function createSolarVoltageConditions($conditions)
+    public function createSolarVoltageConditions(array $conditions)
     {
         $svc = new LedSolarVoltageConditions();
 

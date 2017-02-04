@@ -25,7 +25,7 @@ class ConditionsFactory
      * @param  array $conditionsArray
      * @return ConfigConditions
      */
-    public function createConditions($conditionsArray)
+    public function createConditions(array $conditionsArray)
     {
         $conditions = new ConfigConditions();
 
