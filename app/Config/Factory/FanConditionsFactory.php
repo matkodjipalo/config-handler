@@ -13,7 +13,7 @@ use \Config\Helper\ArrayExtractor;
  */
 class FanConditionsFactory
 {
-	/** @var ArrayExtractor */
+    /** @var ArrayExtractor */
     private $arrayExtractor;
 
     public function __construct()
@@ -23,7 +23,7 @@ class FanConditionsFactory
 
     /**
      * @param  array $conditionsArray
-     * @return LedConditions
+     * @return FanConditions
      */
     public function createConditions(array $conditionsArray)
     {

@@ -21,7 +21,7 @@ class ConditionsFactory
 
     /**
      * Stvaranje objekta konfiguracijskih uvjeta na temelju niza konfiguracijskih podataka.
-     * 
+     *
      * @param  array $conditionsArray
      * @return ConfigConditions
      */
