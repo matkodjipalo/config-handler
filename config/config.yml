@@ -1,0 +1,29 @@
+PASS: 20Steora16
+SSID: Include
+conditions: 
+  led: 
+    LedBatteryVoltageCondition: 
+      active: true
+      lowerThreshold: 11.95
+      upperThreshold: 12.5
+    LedSolarVoltageCondition: 
+      active: true
+      lowerThreshold: 7
+      upperThreshold: 12
+  fan:
+    FanTemperatureCondition:
+      active: True
+      upperThreshold : 35.0
+      lowerThreshold : 30.0
+
+    FanSolarCurrentCondition:
+      active: True
+      upperThreshold : 1.0
+      lowerThreshold : 0.5
+
+    FanSolarVoltageCondition:
+      active: True
+      upperThreshold : 12.0
+      lowerThreshold : 7.0
+
+token: 998-S-e64044b5b2fb40533d22357d72fe2093
