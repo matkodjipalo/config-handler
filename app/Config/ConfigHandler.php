@@ -54,7 +54,7 @@ class ConfigHandler
     }
 
     /**
-     * Učitava yaml file na određenoj lokaciji.
+     * Učitava yaml file s određene lokacije.
      *
      * @param  string $configFilePath
      * @return mixed Učitani file u obliku nizu ili false ako nije moguće učitati file.
