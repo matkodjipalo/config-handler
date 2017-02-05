@@ -64,7 +64,7 @@ class ConfigHandler
         try {
             $configArray = Yaml::parse(file_get_contents($configFilePath));
         } catch (\Exception $e) {
-            $this->logError();
+            $this->logError($e->getMessage());
 
             return false;
         }
